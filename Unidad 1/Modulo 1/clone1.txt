@@ -1,1 +1,2 @@
 Clone 1 en compu 2
+Clone 2 compu 2 cambio de ruta
