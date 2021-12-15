@@ -1,27 +1,52 @@
+/*GLOBAL*/
+
 * {
     margin: 0;
     padding: 0;
-    width: auto;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(75, 75, 14);
+    background-color: rgb(32, 22, 9);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
-    padding: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {}
+
+
+/*TITULO*/
+
+.header-container {
+    width: 100%;
+    background-color: burlywood;
 }
 
 header h1 {
-    background-color: burlywood;
     font-size: 30px;
 }
 
+
+/*IMAGEN*/
+
 img {
-    width: 80%;
+    width: 100%;
     height: auto;
+}
+
+
+/*SECCION PRINCIPAL*/
+
+section {
+    width: 100%;
+    background-color: burlywood;
 }
 
 li {
