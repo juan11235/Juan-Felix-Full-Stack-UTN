@@ -7,9 +7,9 @@
 }
 
 body {
-    background-color: rgb(32, 22, 9);
+    background-color: rgb(110, 97, 79);
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -19,34 +19,70 @@ body {
     align-items: center;
 }
 
-.line {}
+.line {
+    margin: 5px 0;
+    width: 100%;
+}
 
 
 /*TITULO*/
 
 .header-container {
     width: 100%;
+    height: 90px;
     background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }
 
 header h1 {
-    font-size: 30px;
+    font-size: 50px;
+}
+
+#icono-taza {
+    font-size: 20px;
+    color: brown;
 }
 
 
 /*IMAGEN*/
 
+.img-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 img {
     width: 100%;
     height: auto;
+    box-shadow: 10px 10px 5px black;
 }
 
 
 /*SECCION PRINCIPAL*/
 
-section {
+.seccion-info {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section>div {
+    width: 100%;
+    height: 90px;
     background-color: burlywood;
+    background-image: radial-gradient(white, burlywood, rgb(110, 97, 79));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 li {
