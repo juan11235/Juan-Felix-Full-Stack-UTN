@@ -1,0 +1,17 @@
+/* global */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* landing */
+
+.div {
+    background-image: url("Images/landing.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
