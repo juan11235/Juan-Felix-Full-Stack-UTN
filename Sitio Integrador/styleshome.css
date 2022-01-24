@@ -9,10 +9,14 @@
 
 header {
     height: 13vh;
+    background-color: rgba(28, 201, 224, 0.6);
 }
+
 nav {
     height: 7vh;
+    margin: 5px 0 5px 0;
 }
+
 .carousel-item {
     height: 80vh;
     background: #777;
@@ -28,4 +32,50 @@ nav {
     bottom: 0;
     right: 0;
     padding-bottom: 50px;
+}
+
+.holder a,
+.holder div {
+    float: left;
+    position: relative;
+}
+
+.holder a {
+    width: 10%;
+}
+
+.holder a {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.holder a img {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding: 5%;
+    border-radius: 15%;
+    position: absolute;
+    left: 80%;
+}
+
+.holder div {
+    position: absolute;
+    top: 2%;
+    left: 16.5%;
+}
+
+footer {
+    background-color: rgba(28, 201, 224, 0.6);
+}
+
+footer div h3,
+footer div h4,
+footer div h5 {
+    font-size: 1em;
+}
+
+.nav-item a.activo {
+    background-color: rgba(28, 201, 224, 0.6);
 }
