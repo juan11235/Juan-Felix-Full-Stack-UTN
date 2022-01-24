@@ -7,8 +7,14 @@
     list-style: none;
 }
 
+header {
+    height: 13vh;
+}
+nav {
+    height: 7vh;
+}
 .carousel-item {
-    height: 32rem;
+    height: 80vh;
     background: #777;
     color: white;
     position: relative;
