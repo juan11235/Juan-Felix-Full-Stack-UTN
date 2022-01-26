@@ -5,3 +5,7 @@
     padding: 0;
     margin: 0;
 }
+
+.nav-item a.activo {
+    background-color: rgba(28, 201, 224, 0.6);
+}
