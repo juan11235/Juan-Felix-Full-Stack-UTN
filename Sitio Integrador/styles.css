@@ -102,10 +102,11 @@ footer div h5 {
     background-color: rgba(28, 201, 224, 0.6);
     margin: 0 10px 5px 5px;
     height: 500px;
+    color: white;
 }
 
 .div-item-nosotros img {
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10%;
     padding: 5px;
 }
@@ -120,12 +121,15 @@ footer div h5 {
 }
 
 .grid-container {
-    background-color: thistle;
+    background-color: rgba(28, 201, 224, 0.6);
     display: grid;
     grid-template-columns: auto auto auto auto;
-    height: 400px;
+    height: 800px;
     width: 80%;
+    margin: 10px 0 10px 0;
     padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .grid-item {
@@ -134,54 +138,69 @@ footer div h5 {
     justify-content: center;
     align-items: center;
     row-gap: 10px;
-    column-gap: 20px;
-    background-color: violet;
+    column-gap: 10px;
     padding: 10px;
-    height: 100px;
+    height: 280px;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 5%;
+    color: white;
 }
 
 .main-servicios {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: rgba(28, 201, 224, 0.6);
-    height: 400px;
+    height: 800px;
 }
 
+.grid-item img {}
+
 #item1 {
-    grid-column: 1 / 4;
-    background-color: yellow;
+    background-image: url(./Images/cafe-servicios.jpg);
+    background-size: cover;
 }
 
 #item2 {
-    background-color: tomato;
+    background-image: url(./Images/pasteleria-servicios.jpg);
+    background-size: cover;
 }
 
 #item3 {
-    grid-area: 4 / 2 / 4 / 4;
-    background-color: yellowgreen;
+    background-image: url(./Images/wine-servicios.jpg);
+    background-size: cover;
 }
 
 #item4 {
-    grid-area: 2 / 1 / 4 / 1;
-    background-color: blue;
+    background-image: url(./Images/lunch-servicios.jpg);
+    background-size: cover;
 }
 
 #item5 {
-    grid-area: 2 / 2 / 2 / 2;
-    background-color: brown;
+    background-image: url(./Images/cocktails-servicios.jpg);
+    background-size: cover;
 }
 
 #item6 {
-    grid-area: 2 / 3 / 2 / 3;
-    background-color: coral;
+    background-image: url(./Images/chocolate-servicios.jpg);
+    background-size: cover;
 }
 
 #item7 {
-    grid-area: 3 / 2 / 3 / 2;
-    background-color: red;
+    background-image: url(./Images/catering-servicios.jpg);
+    background-size: cover;
 }
 
 #item8 {
-    grid-area: 3 / 3 / 3 / 3;
+    background-image: url(./Images/delivery-servicios.jpg);
+    background-size: cover;
+}
+
+.grid-item button {
     background-color: black;
+    color: white;
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
 }
