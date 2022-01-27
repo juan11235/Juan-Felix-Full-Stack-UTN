@@ -9,7 +9,9 @@
 
 /* landing */
 
-.todo {}
+.todo-fondo {
+    background-size: cover;
+}
 
 .todo img {
     width: 100%;
