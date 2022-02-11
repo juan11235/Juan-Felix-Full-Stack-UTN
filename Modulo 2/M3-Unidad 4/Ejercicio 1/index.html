@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="fondo" style="background: transparent;">
+    <p id="cuadrado1" style="width: 100px; height: 100px; background-color: red;"></p>
+    <p id="cuadrado2" style="width: 100px; height: 100px; background-color: blue;"></p>
+    <p id="cuadrado3" style="width: 100px; height: 100px; background-color: green;"></p>
+
+    <script>
+        var fondo = document.getElementById("fondo");
+        var cuadrado1 = document.getElementById("cuadrado1");
+        var cuadrado2 = document.getElementById("cuadrado2");
+        var cuadrado3 = document.getElementById("cuadrado3");
+        cuadrado1.addEventListener("click", () => fondo.style.background = "red");
+        cuadrado2.addEventListener("click", () => fondo.style.background = "blue");
+        cuadrado3.addEventListener("click", () => fondo.style.background = "green");
+    </script>
+
+</body>
+
+</html>
