@@ -1,12 +1,15 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import ContactoPage from './pages/ContactoPage';
-import HomePage from './pages/HomePage';
-import NosotrosPage from './pages/NosotrosPage';
-import NovedadesPage from './pages/NovedadesPage';
+
+import ContactoPage from './src/pages/ContactoPage';
+import HomePage from './src/pages/HomePage';
+import NosotrosPage from './src/pages/NosotrosPage';
+import NovedadesPage from './src/pages/NovedadesPage';
+
 
 function App() {
   return (
     <div className="App" >
+      
       <Router>
         <Header />
         <Nav />
