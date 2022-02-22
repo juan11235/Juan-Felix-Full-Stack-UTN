@@ -9,7 +9,8 @@ import Header from './components/layout/Header';
 import Nav from './components/layout/Nav';
 import Footer from './components/layout/Footer';
 
-
+import './App.css'
+import './normalize.css'
 
 function App() {
   return (

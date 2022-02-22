@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/components/pages/ContactoPage.css'
 
 const ContactoPage = (props) => {
     return (
@@ -28,7 +29,7 @@ const ContactoPage = (props) => {
                 </form>
             </div>
             <div className="columna datos">
-                <h2>Otrasvias e contacto</h2>
+                <h2>Otras vias de contacto</h2>
                 <p>Tambien puede contactarse con nosotros usando los siguientes medios</p>
                 <ul>
                     <li>Telefono;123456789</li>
