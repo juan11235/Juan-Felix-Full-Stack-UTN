@@ -1,20 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
-import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Landing from './components/layout/Landing';
+import HomePage from './components/layout/HomePage'
+import NosotrosPage from './components/layout/NosotrosPage'
+import ServiciosPage from './components/layout/ServiciosPage'
+import ContactoPage from './components/layout/ContactoPage'
 
-import Footer from './components/layout/Footer';
-import Header from './components/layout/Header';
-import Nav from './components/layout/Nav';
 
-import HomePage from './pages/HomePage';
-import ContactoPage from './pages/ContactoPage';
-import NosotrosPage from './pages/NosotrosPage';
-import ServiciosPage from './pages/ServiciosPage'
+import './App.css';
+import './styles/normalize.css'
+
 
 function App() {
+<<<<<<< HEAD
     return ( <
         div >
 
@@ -32,6 +31,21 @@ function App() {
 
 
     );
+=======
+  return (
+
+      <BrowserRouter>
+
+        <Route path='/' exact component={Landing} />
+        <Route path='/home' exact component={HomePage} />
+        <Route path='/nosotros' exact component={NosotrosPage} />
+        <Route path='/servicios' exact component={ServiciosPage} />
+        <Route path='/contacto' exact component={ContactoPage} />
+
+      </BrowserRouter>
+
+  );
+>>>>>>> a4ac79a0f2a55549ae923cd5824ef3e6e3c7db11
 }
 
 export default App;
