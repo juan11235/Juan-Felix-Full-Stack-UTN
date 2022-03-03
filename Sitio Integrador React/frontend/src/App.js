@@ -15,17 +15,23 @@ import NosotrosPage from './pages/NosotrosPage';
 import ServiciosPage from './pages/ServiciosPage'
 
 function App() {
-  return (
-    <div>
-      <Landing />
-      <Header />
-      <Nav />
-      <Footer />
-    </div>
-      
-    
-   
-  );
+    return ( <
+        div >
+
+        <
+        Landing / >
+        <
+        Header / >
+        <
+        Nav / >
+        <
+        Footer / >
+        <
+        /div>
+
+
+
+    );
 }
 
 export default App;
