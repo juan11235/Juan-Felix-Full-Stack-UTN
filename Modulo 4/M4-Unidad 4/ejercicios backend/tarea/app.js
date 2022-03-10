@@ -41,17 +41,17 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.get('/pagina1', function (req, res) {
+app.get('/tarea', function(req, res) {
+  res.render('pagina')
+})
+
+app.post('/ingresar', function (req, res) {
+  req.session.nombre2 = req.body.nombre2;
   res.render('pagina', {
     nombre: ` Vistas de: `,
     nombre2: req.session.nombre2,
     vistas: req.session.vistas[req.originalUrl]
   });
-});
-
-app.post('/ingresar', function (req, res) {
-  req.session.nombre2 = req.body.nombre2;
-
 });
 
 // fin tarea
