@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 16-03-2022 a las 11:56:05
+-- Tiempo de generación: 16-03-2022 a las 12:29:30
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -28,12 +28,12 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `empleados` (
   `id_emp` int(11) NOT NULL AUTO_INCREMENT,
-  `nombre` varchar(250) NOT NULL,
-  `apellido` varchar(250) NOT NULL,
-  `trabajo` varchar(250) NOT NULL,
+  `nombre` varchar(250) CHARACTER SET utf8 NOT NULL,
+  `apellido` varchar(250) CHARACTER SET utf8 NOT NULL,
+  `trabajo` varchar(250) CHARACTER SET utf8 NOT NULL,
   `edad` int(3) NOT NULL,
   `salario` int(6) NOT NULL,
-  `mail` varchar(250) NOT NULL,
+  `mail` varchar(250) CHARACTER SET utf8 NOT NULL,
   PRIMARY KEY (`id_emp`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
