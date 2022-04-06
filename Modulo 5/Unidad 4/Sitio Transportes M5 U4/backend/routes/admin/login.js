@@ -1,5 +1,5 @@
 var express = require('express');
-const async = require('hbs/lib/async');
+//const async = require('hbs/lib/async');
 var router = express.Router();
 var usuariosModel = require('./../../models/usuariosModel'); 
 
