@@ -13,25 +13,6 @@ import './styles/normalize.css'
 
 
 function App() {
-<<<<<<< HEAD
-    return ( <
-        div >
-
-        <
-        Landing / >
-        <
-        Header / >
-        <
-        Nav / >
-        <
-        Footer / >
-        <
-        /div>
-
-
-
-    );
-=======
   return (
 
       <BrowserRouter>
@@ -45,7 +26,6 @@ function App() {
       </BrowserRouter>
 
   );
->>>>>>> a4ac79a0f2a55549ae923cd5824ef3e6e3c7db11
 }
 
 export default App;
