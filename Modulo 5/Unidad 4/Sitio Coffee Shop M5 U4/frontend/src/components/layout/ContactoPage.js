@@ -1,8 +1,15 @@
 import React from "react";
+import Footer from "./Footer";
+import Nav from "./Nav";
+import Header from "./Header";
 
 const ContactoPage = (props) => {
     return (
-        <div>ContactoPage</div>
+        <div>
+            <Header />
+            <Nav />
+            <Footer />
+        </div>
     );
 }
 
