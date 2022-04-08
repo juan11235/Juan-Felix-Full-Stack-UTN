@@ -32,7 +32,7 @@ const ContactoPage = (props) => {
                 <h2>Otras vias de contacto</h2>
                 <p>Tambien puede contactarse con nosotros usando los siguientes medios</p>
                 <ul>
-                    <li>Telefono;123456789</li>
+                    <li>Telefono: 123456789</li>
                     <li>Email: </li>
                     <li>Facebook</li>
                     <li>Twitter</li>
