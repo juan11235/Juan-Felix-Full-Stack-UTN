@@ -77,7 +77,7 @@ footer div h5 {
 }
 
 .nav-item a.activo {
-    background-color: rgba(28, 201, 224, 0.6);
+    background-color: red/* rgba(28, 201, 224, 0.6) */;
 }
 
 .main-nosotros {
@@ -204,3 +204,7 @@ footer div h5 {
     width: 100px;
     height: 40px;
 }
+
+nav ul li a.activo {
+    background-color: #4c76a5;
+} 

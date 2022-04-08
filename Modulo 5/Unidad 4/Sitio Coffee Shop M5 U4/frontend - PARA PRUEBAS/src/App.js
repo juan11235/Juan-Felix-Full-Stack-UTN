@@ -13,13 +13,13 @@ import "./styles/normalize.css";
 function App() {
   return (
     <BrowserRouter>
-      
+      <Switch>
         <Route path="/" exact component={LandingPage} />
         <Route path="/home" exact component={HomePage} />
         <Route path="/nosotros" exact component={NosotrosPage} />
         <Route path="/servicios" exact component={ServiciosPage} />
         <Route path="/contacto" exact component={ContactoPage} />
-     
+      </Switch>
     </BrowserRouter>
   );
 }
