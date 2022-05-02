@@ -3,7 +3,6 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var fileUpload = require('express-fileupload');
 
 require('dotenv').config();
 var session = require('express-session');
@@ -46,10 +45,6 @@ secured = async (req, res, next) => {
     }
 };
 
-app.use(fileUpload({
-  useTempFiles: true,
-  tempFileDir: '/tmp/'
-}));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
